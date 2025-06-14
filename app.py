@@ -7,7 +7,7 @@ st.set_page_config(page_title="YouTube Video Q&A Bot", layout="centered")
 st.title("📺 YouTube Video Q&A Bot")
 st.markdown("Paste a YouTube video link to get a summary and ask questions.")
 
-# Input: YouTube video link
+
 video_url = st.text_input("🔗 Enter YouTube Video URL")
 
 if video_url:

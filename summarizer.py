@@ -1,16 +1,21 @@
-import streamlit as st
+import os
+from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 
-# Load OpenRouter API key from Streamlit secrets
-api_key = st.secrets["OPENROUTER_API_KEY"]
+# Load .env file
+load_dotenv()
 
-# Initialize LLM using Meta LLaMA 3.3 70B Instruct via OpenRouter
+# Read API key from environment variable
+api_key = os.getenv("OPENROUTER_API_KEY")
+
+# Initialize the LLM with local environment key
 llm = ChatOpenAI(
     model_name="meta-llama/llama-3.3-70b-instruct:free",
     openai_api_key=api_key,
     openai_api_base="https://openrouter.ai/api/v1",
     temperature=0.3
 )
+
 def summarize_text(text: str) -> str:
     """
     Summarize the full transcript using LLaMA 3.3 70B via OpenRouter.
