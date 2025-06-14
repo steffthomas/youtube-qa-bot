@@ -32,8 +32,9 @@ An AI-powered web app that summarizes YouTube videos and allows users to ask int
 ![Screenshot 2025-06-14 162814](https://github.com/user-attachments/assets/62962326-e111-47b0-94f3-d8c98e46346a)
 
 ---
-## ▶️ Demo Video
+## 🎬 Demo Video
 
+[▶️ Click to Watch Demo](./videos/demo.mp4)
 
 ---
 ## 🚀 Tech Stack
