@@ -32,12 +32,12 @@ An AI-powered web app that summarizes YouTube videos and allows users to ask int
 ![Screenshot 2025-06-14 162814](https://github.com/user-attachments/assets/62962326-e111-47b0-94f3-d8c98e46346a)
 
 ---
-## 🎬 Demo Video
+##  Demo Video
 
 [▶️ Click here to watch the demo video](https://drive.google.com/file/d/1yGIGTJW3aL2DPFbOmk_vDlyvJUSkLWu6/view?usp=drive_link)
 
 ---
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Component         | Tool/Library                           |
 |------------------|----------------------------------------|
@@ -48,6 +48,4 @@ An AI-powered web app that summarizes YouTube videos and allows users to ask int
 | Transcripts      | `youtube-transcript-api`               |
 | Deployment       | Streamlit Cloud / Render / Localhost   |
 
----
-GitHub: [@steffthomas](https://github.com/steffthomas)  
-LinkedIn: [stefy-thomas](https://www.linkedin.com/in/stefy-thomas/)
+
